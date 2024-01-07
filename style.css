@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+#write_form,
+#board_area,
+#post_view {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #606060;
+}
+
+input[type='text'],
+textarea {
+    min-width: 480px;
+    max-width: 550px;
+    max-height: 300px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0073e6;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+#board_area div {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#post_view {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#post_view p {
+    margin-bottom: 10px;
+    color: #606060;
+}
+
+#comments_area div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#backButton,
+#likeButton,
+#dislikeButton,
+#reportButton,
+#deleteButton,
+#writeButton {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#backButton {
+    background-color: #909090;
+}
+
+#likeButton {
+    background-color: #4caf50;
+}
+
+#dislikeButton {
+    background-color: #e53935;
+}
+
+#reportButton {
+    background-color: #ff9800;
+}
+
+#deleteButton {
+    background-color: #757575;
+}
+
+#writeButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#writeButton:hover {
+    background-color: #005bb5;
+}
+
+#backButton {
+    background-color: #909090;
+}
+
+#likeButton {
+    background-color: #4caf50;
+}
+
+#dislikeButton {
+    background-color: #e53935;
+}
+
+#reportButton {
+    background-color: #ff9800;
+}
+
+#deleteButton {
+    background-color: #757575;
+}
+
+#writeButton {
+    background-color: #0073e6;
+}
+
+#writeButton:hover {
+    background-color: #005bb5;
+}
